@@ -1,0 +1,16 @@
+{
+  "name": "reactpractice",
+  "version": "1.0.0",
+  "description": "A collection of some activities to practice with React based on the Midudev course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "20.9.0",
+    "npm": "10.2.3"
+  }
+}
