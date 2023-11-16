@@ -1,8 +1,28 @@
-# React + Vite
+# Notes From This First Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Basic structure to use React**
 
-Currently, two official plugins are available:
+```.jsx
+// Import the main React packages
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+// Talk to the DOM and get the root element where we'll render all the jsx code
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.Fragment>
+        {/* Code */}
+    </React.Fragment>
+)
+```
+
+**Create a component**
+
+```.jsx
+// All components must be named with PascalCase 
+// so that React knows they are components.
+const ComponentName = () => {
+    return (
+        {/* Code */}
+    )
+}
+```
