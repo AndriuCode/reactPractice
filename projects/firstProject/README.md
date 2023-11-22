@@ -26,3 +26,10 @@ const ComponentName = () => {
     )
 }
 ```
+
+**Notes**
+
+- Components are an element factory and elements are what React renders.
+- The properties of an element must be immutable, i.e., we cannot edit them after passing them to the component.
+- We can use the ``children`` element to render the most important things in our project.
+- React to make a project more dynamic, uses a concept called "**Virtual DOM**" and it is something like saving all the rendered elements and then, after an event happens, compare the saved elements with the new ones and only change the specific element that had a change.
